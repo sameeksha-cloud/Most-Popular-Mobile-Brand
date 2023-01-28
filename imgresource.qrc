@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img6.jpg</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>icons8-bar-chart-26.png</file>
+    <file>icons8-chart-64.png</file>
+    <file>icons8-customer-insight-64.png</file>
+    <file>icons8-gradient-line-64.png</file>
+    <file>icons8-reply-all-26.png</file>
+    <file>icons8-search-26.png</file>
+    <file>icons8-trash-26.png</file>
+    <file>icons8-update-64.png</file>
+    <file>user.png</file>
+  </qresource>
+  <qresource prefix="pics">
+    <file>img1.jpg</file>
+  </qresource>
+</RCC>

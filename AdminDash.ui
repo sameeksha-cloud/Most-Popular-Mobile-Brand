@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ADMIN</class>
+ <widget class="QMainWindow" name="ADMIN">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1515</width>
+    <height>947</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ADMIN
+{
+
+background-image: url(:/images/mbls.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1271</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1271</width>
+      <height>861</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1271</width>
+      <height>861</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>img4.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignJustify</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>360</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>SMARTPHONES !!!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>420</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ready, Action !</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Built for the Era of live.. </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1515</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdd_details">
+    <property name="title">
+     <string>Add</string>
+    </property>
+    <addaction name="mbladd"/>
+    <addaction name="cstmradd"/>
+   </widget>
+   <widget class="QMenu" name="menuSearch_deatils">
+    <property name="title">
+     <string>Search</string>
+    </property>
+    <addaction name="mblsearch"/>
+    <addaction name="mblsearchmodel"/>
+    <addaction name="mblsold"/>
+   </widget>
+   <widget class="QMenu" name="menuDelete">
+    <property name="title">
+     <string>Delete</string>
+    </property>
+    <addaction name="mbldelete"/>
+   </widget>
+   <widget class="QMenu" name="menuUpdate">
+    <property name="title">
+     <string>Update</string>
+    </property>
+    <addaction name="mblupdate"/>
+   </widget>
+   <widget class="QMenu" name="menuShow_Chart">
+    <property name="title">
+     <string>Chart</string>
+    </property>
+    <addaction name="mblchart"/>
+    <addaction name="mblpie"/>
+   </widget>
+   <widget class="QMenu" name="menuSend_Mail">
+    <property name="title">
+     <string>Mail</string>
+    </property>
+    <addaction name="email"/>
+   </widget>
+   <addaction name="menuAdd_details"/>
+   <addaction name="menuSearch_deatils"/>
+   <addaction name="menuUpdate"/>
+   <addaction name="menuDelete"/>
+   <addaction name="menuShow_Chart"/>
+   <addaction name="menuSend_Mail"/>
+  </widget>
+  <action name="mbladd">
+   <property name="icon">
+    <iconset resource="imgresource.qrc">
+     <normaloff>:/icon/user.png</normaloff>:/icon/user.png</iconset>
+   </property>
+   <property name="text">
+    <string>MobileDetails</string>
+   </property>
+  </action>
+  <action name="cstmradd">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-customer-insight-64.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-customer-insight-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>CustomerDetails</string>
+   </property>
+  </action>
+  <action name="mblsearch">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-google-web-search-64.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-google-web-search-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>byBrand</string>
+   </property>
+  </action>
+  <action name="mblsearchmodel">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-search-26.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-search-26.png</iconset>
+   </property>
+   <property name="text">
+    <string>byModelno.</string>
+   </property>
+  </action>
+  <action name="mblupdate">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-update-64.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-update-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>MobileUpdate</string>
+   </property>
+  </action>
+  <action name="cstmrupdate">
+   <property name="text">
+    <string>CstmrUpdate</string>
+   </property>
+  </action>
+  <action name="mbldelete">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-trash-26.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-trash-26.png</iconset>
+   </property>
+   <property name="text">
+    <string>MobileDelete</string>
+   </property>
+  </action>
+  <action name="cstmrdelete">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-trash-26.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-trash-26.png</iconset>
+   </property>
+   <property name="text">
+    <string>CustomerDelete</string>
+   </property>
+  </action>
+  <action name="mblsold">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-gradient-line-64.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-gradient-line-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>soldMobile</string>
+   </property>
+  </action>
+  <action name="mblchart">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-bar-chart-26.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-bar-chart-26.png</iconset>
+   </property>
+   <property name="text">
+    <string>barchart</string>
+   </property>
+  </action>
+  <action name="mblpie">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-chart-64.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-chart-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>piechart</string>
+   </property>
+  </action>
+  <action name="email">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-reply-all-26.png</normaloff>C:/Users/Sameeksha Yadav/Downloads/icons8-reply-all-26.png</iconset>
+   </property>
+   <property name="text">
+    <string>CustomerMail</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="imgresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deleteframe</class>
+ <widget class="QFrame" name="deleteframe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#deleteframe
+{
+background-image: url(:/images/ad_img.jpg);
+}</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+
+
+	color: rgb(255, 255, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>ModelNumber</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtmn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>150</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+border-radius:5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btndel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>280</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(235, 137, 213);
+	
+}
+QPushButton
+{  
+   color:white;
+   border-radius:5px;
+}
+QPushButton:hover
+{  
+   color:white;
+   border-radius:5px;
+   
+	
+	background-color: rgb(113, 136, 213);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
